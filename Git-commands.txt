@@ -1,0 +1,12 @@
+GIT COMMANDS :
+
+- git config = sets the author name and email address to be use with your commits
+- git clone <url> = to copy a repository to local from an existing URL
+- git status = lists the files that have to commited
+- git rm <file> = deletes the file from your directory and stages the deletion
+- git log = used to list the version history for the current branch
+- git branch = lists all the local branches in the current repository
+- git branch -d <branch name> = deletes the feature branch
+- git checkout <branch name> = used to switch from one batch to another
+- git checkout -b <branch name> creates a new branch and switches to it
+- git merge <branch name> = merges the specified branch's history into the current branch
