@@ -1,0 +1,12 @@
+SCRUM INTRODUCTION (Contd.):
+
+- The scrum team consists of three roles :1.Product Owner 2.Scrum Master 3.Development team
+- Typical size of a scrum team is between 3 and 9 members excluding the Scrum Master and Product Owner.
+- Scrum breaks a large product requirements into incremental deliverables units of customer value called backlog items.
+- The Scrum team commits to a subset of backlog items and delivers them within a set time box
+- Each subset is called iteration, which is delivered to the customer at the end of time box.
+- Iterations continue until the project is complete.
+- The scrum team will work on tough problems and are not afraid to do the right thing.
+- The stakeholders and scrum team agree to openly work on the challenges while executing the projects.
+- Scrum team members are idependent people who respect each other's capabilities and deliver products iteratively and incrementally.
+- Each of the incremental delivery is ensured that a potentially useful version of the product is always available.

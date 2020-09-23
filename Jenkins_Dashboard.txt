@@ -1,0 +1,44 @@
+Jenkins Dashboard:
+
+The Jenkins Dashboard place where we can manage the builds,settings and other resources needed for the automation tool to build and deliver the code.
+
+On the sidebar contains the following options:-
+
+New Item: >> This option is used to create a new build with various options.
+          >> Some of the options available are 
+            - New Freestyle project => Jenkins will build the project,combining any SCM(Source Code Management) with any build system.
+            - Pipeline => Orchestrates long-running activities that can span multiple build agents which is rather complex and that do not fit in free-style job.
+            - Multi-configuration => Suitable for projects that need a large number of different configurations,such as testing on mutiple environments,platform specific builds etc.
+            - Folder => Creates a container that stores nested items in it which is useful for grouping things together.
+            - Git Hub Organization => Scans a Github organization for all repos matching some defined markers.
+            - Multibranch Pipelin => Creates a set of Pipeline projects as per detected branches in one SCM repository.          
+
+People: >> Displays the information of the all "users" with thier login credentials (User ID and Name) along with their last commits and the date of commit.
+        >> Users include the people both internal and external to the organization who have contributed to the change of the source code.
+
+Build History: >> Displays the build history of the code executed on Jenkins with information about its outcome,build number,date and time and the file size.
+                
+
+Manage Jenkins: Allows Jenkins Administrator to manage:-
+                >> Installation and deletion of Plugins
+                >> Login credentials
+                >> Tool configurations
+                >> Security and etc.
+
+
+My Views: >> Allows the user to organize the jobs and source code content into categories.
+          >> The tabbed categories will be visible in the dashboard.
+          >> The default Jenkins view is - List view . But using My views, the view can be organized as per the user's requirements.
+          >> List view = shows the items in a simple list view
+          >> My view = automatically displays all the jobs the current user has access to.
+ 
+
+Lockable Resources: >> This plugin allows to define lockable resoures(such as printers,phones computers etc.) that can be used for builds.The build will wait till the resource is available and then execute the build after it is available.
+
+New View: >> Allows the user to create a view to see the current list of builds.
+
+Build Queue: >> Displays the list of builds that are in the queue waiting to be executed upon
+
+Build Executor Status: >> Displays the information about the builds currently being executed.
+
+Add description: >> Used to give more information about the build.
