@@ -1,0 +1,35 @@
+MAVEN:
+
+>> Apache Maven is a open source project management tool
+>> Maven is build on concept of Project Object Model (POM) just as ANT is build on build.xml. Maven needs pom.xml to execute the build process.
+>> Maven is used for 
+    -- Project Build
+    -- Dependency Management
+    -- Installing and
+    -- Deploying the build to local and remote repositories
+
+MAVEN BUILD LIFECYCLE:
+
+>> Maven build lifecycle is nothing but the sequence of tasks that are executed when the Maven Build is run
+>> There are three built-in build lifecycles:
+    - Default
+    - Clean
+    - Site
+>> Maven build lifecycle goes through a set of stages, known as build phases.
+>> Each build Phase is made up of set of goals.
+>> Maven goals are nothing but a specific task that contributes to the building and managing of a project.
+
+The following are the Maven Build Phases:
+ -- Validate => Check if all information neccesary for the build is available.
+
+ -- Compile  => Compile the source code.
+
+ -- Test => Run unit tests.
+
+ -- Package => package the compiled source code into the distributed format (.jar,.war etc)
+
+ -- Verify => run any checks on results of integration tests to ensure quality criteria are met.
+
+ -- Install => Install the package into the local repository, for use as a dependency in other projects locally. 
+
+ -- Deploy => Copy the package to the local or remote repository.
